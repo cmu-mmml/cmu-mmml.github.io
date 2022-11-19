@@ -1,12 +1,12 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-author: CMU MultiComp Lab
+author: LP Morency, Paul Liang, Daniel Fried, and Yonatan Bisk
 name: 11-777 MMML
 title: Multimodal Machine Learning
 email:
 description: >
-  11-777 - Multimodal Machine Learning - Carnegie Mellon University - Fall 2020
+  11-777 - Multimodal Machine Learning - Carnegie Mellon University
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -16,7 +16,7 @@ baseurl: # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: CMU-MultiComp-Lab
+github_username: cmu-mmml
 google_analytics: UA-131744305-1
 youtube_channel: UCqlHIJTGYhiwQpNuPU5e2gg
 rss:  # notes rss
