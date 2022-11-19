@@ -1,5 +1,3 @@
-## Multimodal Machine Learning at CMU
-
 The course will present the fundamental mathematical concepts in machine learning and deep learning relevant to the six main challenges in multimodal machine learning: (1) representation, (2) alignment, (3) reasoning, (4) generation, (5) transference and (5) quantification. These include, but not limited to, multimodal transformers, neuro-symbolic models, multimodal tensor fusion, and embodiment. The course will also discuss many of the recent applications of MMML including multimodal affect recognition, multimodal language grounding and language-vision navigation
 
 ### Semesters
