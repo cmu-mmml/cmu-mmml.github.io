@@ -6,7 +6,7 @@ The course will present the fundamental mathematical concepts in machine learnin
 
 ### Semesters
 This course is offered every semester:
-- [Spring 2023](https://cmu-mml.github.io/spring2023/) -- Under Construction!
+- [Spring 2023](https://cmu-mmml.github.io/spring2023/) -- Under Construction!
 - [Fall 2022](https://cmu-mmml.github.io/fall2022/)
 - [Spring 2022](https://cmu-mmml.github.io/spring2022/)
 - [Spring 2021](https://cmu-mmml.github.io/spring2021/)
