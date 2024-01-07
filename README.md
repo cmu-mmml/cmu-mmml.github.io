@@ -13,12 +13,13 @@ This course is offered every semester:
 - [Fall 2020](https://cmu-mmml.github.io/fall2020/)
 
 For advanced topics, see 
-[Advanced Topics in MMML](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
+- [Advanced Topics in MMML](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
+- [Talking to Robots](https://talkingtorobots.com/11-851/)
 
 The syllabus and material are slightly each semester, primarily to incorporate new emerging research topics, but the structure of the course remains the same. The instructors are:
 
 - [LP Morency](http://multicomp.cs.cmu.edu/)
-- [Yonatan Bisk](https://talkingtorobots.com/)
+- [Yonatan Bisk](https://yonatanbisk.com/)
 - [Daniel Fried](https://dpfried.github.io/)
 
 With substantial assistance from [Paul Pu Liang](https://www.cs.cmu.edu/~pliang/)
