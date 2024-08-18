@@ -1,0 +1,35 @@
+Jan 16    Jan 18
+- 1.1: Course Structure    
+- 1.2: LP: Multimodal Applications and Datasets
+
+Choose a paper relevant to your project interest or choose from Tasks & Datasets
+
+Jan 23    Jan 25
+- 2.1: Unimodal P1 (Vision, Speech, ...)
+- 2.2: Unimodal P2 (NLP, ...)
+
+Jan 30    Feb 01
+- 3.1: Fusion
+- 3.2: Fission
+
+Feb 06    Feb 08 -- Report 1
+- 4.1: Alignment
+- 4.2: Aligned Representations
+
+Feb 13    Feb 15
+- 5.1: Transformers
+- 5.2: Structure + Reasoning
+
+Feb 20    Feb 22
+- 6.1: Transformers P2
+- 6.2: Quantification and Bias
+
+Feb 27    Feb 29 -- Project Hours -- Report 2
+Mar 05    Mar 07 -- Spring break
+Mar 12    Mar 14 -- Embodiment
+Mar 19    Mar 21 -- Generation + Translation
+Mar 26    Mar 28 -- Transference -- Report 3
+Apr 02    Apr 04 -- Project Hours
+Apr 09    Apr 11 -- New Research + Carnival
+Apr 16    Apr 18 -- Guest Lectures
+Apr 23    Apr 25 -- Final Presentations

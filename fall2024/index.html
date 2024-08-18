@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta name=viewport content="width=device-width, initial-scale=1">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content:"Yonatan Bisk">
+        <link rel="canonical" href="https://cmu-mmml.github.io">
+        <title>11-777 MultiModal Machine Learning</title>
+        <meta name="title" content="11-777 MMML">
+        <meta name="description" content="Multimodal Machine Learning 11-777 - at CMU">
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://cmu-mmml.github.io/fall2024/">
+        <meta property="og:title" content:"Yonatan Bisk">
+        <meta property="og:image" content="https://cmu-mmml.github.io/fall2024/images/cmu-logo.png">
+        <meta property="og:description" content="Multimodal Machine Learning 11-777 - at CMU">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://cmu-mmml.github.io/fall2024/">
+        <meta property="twitter:title" content:"Yonatan Bisk">
+        <meta property="twitter:image" content="https://cmu-mmml.github.io/fall2024/images/cmu-logo.png">
+        <meta property="twitter:description" content="Multimodal Machine Learning 11-777- at CMU">
+
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="https://cmu-mmml.github.io/fall2024/images/cmu-icon.png">
+    </head>
+    <body>
+
+        <div class="jumbotron" style="padding-top:10px">
+          <div class="container">
+              <center><h1>11-777: <b>M</b>ulti<b>M</b>odal <b>M</b>achine <b>L</b>earning</h1></center>
+          </div>
+        </div>
+
+      <main role="main">
+        <center><h3>Fall 2024&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cmu-mmml.github.io/fall2022/projects/">Previous Projects</a></h3></center>
+        <div>This course focuses on core techniques and modern advances for integrating different "modalities" into a shared representation or reasoning system.  Specifically, these include text, audio, images/videos and action taking.</div><br>
+
+          <div class="table">
+            <div class="row">
+              <div class="col-sm-12">
+              <ul>
+                <li><b>Time & Place</b>: 9:30am - 11:00am on Tu/Th (Margaret Morrison A14)</li>
+                <li><b>Canvas</b>: <a href="TODO">Lectures and additional details (coming soon)</a></li>
+                <li><b>Course questions and discussion (Piazza)</b>: <a href="https://piazza.com/cmu/fall2024/11777">https://piazza.com/cmu/fall2024/11777</a> </li>
+                <li><b>Project Report Template (GitHub)</b>: <a href="https://github.com/cmu-mmml/11-777-template">https://github.com/cmu-mmml/11-777-template</a></li>
+              </ul>
+              </div>
+            </div>
+          <hr>
+            <div class="card-columns" style="column-count:2">
+              <div class="card student " style="max-width: 400px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/daniel.jpg class="card-img" alt="Daniel Fried" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Instructor</b></h5>
+                      <p class="card-text"><a href="https://dpfried.github.io/">Daniel Fried</a></p>
+                      <p class="card-text"><small class="text-muted"><a href="mailto:dfried@cs.cmu.edu">dfried@cs.cmu.edu</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+
+              <div class="card student " style="max-width: 400px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=../fall2024/images/yonatan.jpg class="card-img" alt="Yonatan Bisk" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Instructor</b></h5>
+                      <p class="card-text"><a href="https://talkingtorobots.com/">Yonatan Bisk</a></p>
+                      <p class="card-text"><small class="text-muted"><a href="mailto:ybisk@cs.cmu.edu">ybisk@cs.cmu.edu</a></small>
+                      </p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- close columns -->
+
+            <div class="card-columns" style="column-count:3">
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/piyush.png class="card-img" alt="Piyush Khanna" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Head TA</b></h5>
+                      <p class="card-text">Piyush Khanna</p>
+                      <p class="card-text"><small class="text-muted">Mon 4-5pm <br>(Wean 3110)<br><a href="mailto:piyushkh@andrew.cmu.edu">piyushkh@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=liwei.jpg class="card-img" alt="Li-Wei Chen" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>TA</b></h5>
+                      <p class="card-text">Li-Wei Chen</p>
+                      <p class="card-text"><small class="text-muted">OHs TBD<br>(location TBD)<br><a href="mailto:liweiche@andrew.cmu.edu">liweiche@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/madhura.jpg class="card-img" alt="Madhura Deshpande" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>TA</b></h5>
+                      <p class="card-text">Madhura Deshpande</p>
+                      <p class="card-text"><small class="text-muted">OHs TBD<br>(location TBD)<br><a href="mailto:mvdeshpa@cs.cmu.edu>">mvdeshpa@cs</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- columns -->
+
+            <div class="card-columns" style="column-count:3">
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/haoyang.jpg class="card-img" alt="Haoyang He" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>TA</b></h5>
+                      <p class="card-text">Haoyang He</p>
+                      <p class="card-text"><small class="text-muted">OHs TBD<br>(location TBD)<br><a href="mailto:hhe2@andrew.cmu.edu">hhe2@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/lawrence.jpg class="card-img" alt="Lawrence Jang" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>TA</b></h5>
+                      <p class="card-text">Lawrence Jang</p>
+                      <p class="card-text"><small class="text-muted">OHs TBD<br>(location TBD)<br><a href="mailto:ljang@andrew.cmu.edu">ljang@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+
+
+              <div class="card student sm-2" style="max-width: 300px;">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                      <img src=images/siddhant.jpg class="card-img" alt="Siddhant Waghjale" style="width:250px;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>TA</b></h5>
+                      <p class="card-text">Siddhant Waghjale</p>
+                      <p class="card-text"><small class="text-muted">OHs TBD<br>(location TBD)<br><a href="mailto:swaghjal@andrew.cmu.edu">swaghjal@andrew</a></small></p>
+                    </div> <!-- card-body -->
+                  </div> <!-- col -->
+                </div> <!-- row -->
+              </div> <!-- card -->
+            </div> <!-- column -->
+          <hr>
+          <h4><b>Piazza and Canvas</b></h4>
+          <p>All course communication will happen via Piazza and Canvas.  All videos will be posted to Canvas for offline viewing though aspects of the class/teaching will be interactive and missing from the zoom sessions. Questions will be taken in person -- not on chat</p>
+          <p><b>Piazza:</b> <a href="https://piazza.com/cmu/fall2024/11777">https://piazza.com/cmu/fall2024/11777</a>
+          <ul>
+          </ul>
+          <hr>
+          <h4><b>Assignments Timeline and Grading</b></h4>
+
+          The course is primarily project based, but there will be readings throughout the course and participation points.
+
+          <br>
+          <br>
+          <b>Project Timeline and Assignments (70% total):</b> (see links for more details)<br>
+                <table class="table table-hover table-condensed">
+                <tr class="d-flex" style="border-top:none;">
+                  <td class="col-sm-2" style="border-top:none;">Sep 13</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                  <td class="col-sm-6" style="border-top:none;">Submit group members and name</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                </tr>
+
+                <tr class="d-flex" style="border-top:none;">
+                  <td class="col-sm-2" style="border-top:none;">Sep 19</td>
+                  <td class="col-sm-1" style="border-top:none;">R1</td>
+                  <td class="col-sm-6" style="border-top:none;"><a href="https://github.com/ybisk/11-777-template/blob/main/Reports/1-Dataset-Proposal-and-Analysis/report.pdf">Dataset Proposal and Analysis</a></td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Oct 8 / 10</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                  <td class="col-sm-6" style="border-top:none;">Midterm Presentation</td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Oct 10</td>
+                  <td class="col-sm-1" style="border-top:none;">R2</td>
+                  <td class="col-sm-6" style="border-top:none;"><a href="https://github.com/ybisk/11-777-template/blob/main/Reports/2-Baselines-and-Model-Proposal/report.pdf">Baselines and Model Proposal</a></td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Nov 7</td>
+                  <td class="col-sm-1" style="border-top:none;">R3</td>
+                  <td class="col-sm-6" style="border-top:none;"><a href="https://github.com/ybisk/11-777-template/blob/main/Reports/3-Analysis-of-Baselines/report.pdf">Analysis of Baselines</a></td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+                
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Dec 3 / 5</td>
+                  <td class="col-sm-1" style="border-top:none;"></td>
+                  <td class="col-sm-6" style="border-top:none;"><a href="https://docs.google.com/presentation/d/161ObB-71Nh77Cv1kYlonHAmlRT5OuRQCI1yHIzow_7c/edit?usp=sharing">Final Presentation</a></td>
+                  <td class="col-sm-1" style="border-top:none;">(10%)</td>
+                </tr>
+
+                <tr class="d-flex">
+                  <td class="col-sm-2" style="border-top:none;">Dec 11</td>
+                  <td class="col-sm-1" style="border-top:none;">R4</td>
+                  <td class="col-sm-6" style="border-top:none;"><a href="https://github.com/ybisk/11-777-template/blob/main/Reports/4-Final-Report/report.pdf">Completed Report</a></td>
+                  <td class="col-sm-1" style="border-top:none;">(20%)</td>
+                </tr>
+                </table>
+          <br>
+          <b>Discussion Participation (20%, with up to 2% bonus):</b><br>
+          We will have discussion posts for papers and lectures on Piazza. We ask you to make two thoughtful contributions per week (either asking questions or posting answers) on these posts. 
+           11 weeks x 2 contributions = 22pts, but we will grade out of 20 points allowing for 2pts of extra credit. We also will give credit for asking questions in lectures, but you must post a note documenting your participation to piazza for TAs to accumulate after class..
+          <br><br>
+          <b>Paper Readings (10%):</b><br>
+          These readings start generic and become specific.  You are building the related work section of your project.  We will begin by offering readings to choose from and you will eventually be finding your own readings and answering the quiz questions to link them to the lecture material and to your project.  Paper summaries are due the following Tuesday night (1 week after being assigned).
+
+          <br>
+          <br>
+          <b>Submission Policies:</b><br>
+          <ul>
+            <li>All deadlines are midnight EST (determined by Canvas submission)</li>
+            <li>Project reports are graded as a group (single PDF submission), while all other grades are individual.</li>
+            <li>Late days: Every team has a budget of 6 late days. They will be automatically calculated, after which 2% absolute is removed from max grade.</li>
+          </ul>
+
+          <hr>
+          <h4 id="tasks-and-datasets"><b>Tasks & Datasets</b></h4>
+          The course is primarily centered on a project.  Below, the TAs have listed several they are most interested in across audio, embodiment, vision, etc. If your team has a good reason to work on something else, please reach out so we can discuss it and put together a proposal. <br><br>
+
+          <br>
+          <table class="table table-condensed table-striped">
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://ego4d-data.org/docs/">Ego4D</a> world's largest egocentric (first person) video ML dataset and benchmark suite<br>
+                  <a href="https://vision.cs.utexas.edu/projects/audio_visual_navigation/">SoundSpaces</a> Audio-Visual Navigation in 3D Environments<br>
+                  <a href="https://omniobject3d.github.io/">OmniObject3D</a> Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation<br>
+                  <a href="https://project.inria.fr/stressid/">StressID</a> a Multimodal Dataset for Stress Identification (note delays in acquiring data)<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://webarena.dev/">WebArena</a> A Realistic Web Environment for Building Autonomous Agents <br>
+                  <a href="https://webqna.github.io/">WebQA</a> Multimodal multihop reasoning<br>
+                  <a href="https://github.com/google-research-datasets/RxR">Room across Room</a> a multilingual dataset for Vision-and-Language Navigation<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://ogroth.github.io/shapestacks/">ShapeStacks </a><br>
+                  <a href="https://github.com/RAIVNLab/sugar-crepe">SugarCrepe</a>  A benchmark for faithful vision-language compositionality evaluation<br>
+                  <a href="https://layoutbench.github.io/">LayoutBench</a> Diagnostic Benchmark and Iterative Inpainting for Layout-Guided Image Generation<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://robotics-transformer-x.github.io/">RT-X</a> <a href="https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/htmlview#gid=0">(components)</a><br>
+                  <a href="https://ut-austin-rpl.github.io/MUTEX/">MUTEX</a> Learning Unified Policies from Multimodal Task Specifications<br>
+                  <a href="https://github.com/Lifelong-Robot-Learning/LIBERO">LIBERO</a> Benchmarking Knowledge Transfer for Lifelong Robot Learning<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://okvqa.allenai.org/">OK-VQA</a> Outside Knowledge Visual Question Answering<br>
+                  <a href="https://whoops-benchmark.github.io/">Whoops</a> A Vision-and-Language Benchmark of Synthetic and Compositional Images <br>
+                  <a href="https://aclanthology.org/2022.acl-long.290/">MMCoQA</a> Conversational Question Answering over Text, Tables, and Images<br>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-3"></td>
+              <td class="col-md-9">
+                  <a href="https://visionandlanguage.net/VIST/">Visual Storytelling</a> <br>
+                  <a href="https://eric-xw.github.io/vatex-website/">VATEX</a> A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research.<br>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+          <h5><b>Physical hardware / robots / sensors ... </b></h5>
+          <table class="table table-condensed table-striped">
+
+            <tr class="d-flex">
+              <td class="col-md-12">What about physical hardware? robots? tasks not datasets? Let's talk.</td>
+            </tr>
+
+          </table>
+          <br><br>
+          <b>Compute</b>
+          Limited AWS compute credits will be made available to each student, so please consider both your interests and available compute resources when deciding on a dataset/project.
+          <br>
+          <hr>
+          <h4><b>Lectures</b></h4> (tentative)
+          <table class="table table-striped">
+            <thead>
+              <tr class="d-flex">
+                <th class="col-md-6">Tuesday</th>
+                <th class="col-md-6">Thursday</th>
+              </tr>
+            </thead>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Aug 27: <b>Course Structure</b>
+                    <ul><li>Research and technical challenges</li><li>Syllabus and requirements</li></ul>
+              </td>
+              <td class="col-md-6">
+                Aug 29: <b>Multimodal applications and datasets</b><br>
+                      <ul><li>Research tasks and datasets</li> <li>Team projects</li></ul>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+                Overview Readings:
+                    <ul>
+                      <li><a href="https://arxiv.org/abs/2209.03430">Foundations and Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions</a> Section 2 in particular</li>
+                      <li><a href="https://arxiv.org/abs/1206.5538">Representation Learning: A Review and New Perspectives</a> Sections 1-3, 6-8, 11 </li>
+                      <li><a href="https://arxiv.org/abs/2004.10151">Experience Grounds Language</a></li>
+                    </ul>
+                Or Tasks and Data Readings:
+                    <ul>
+                      <li>Any of the papers linked in <a href="#tasks-and-datasets">Tasks & Datasets</a> or relevant to your idea for a project</li>
+                    </ul>
+              </td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Sep 3: <b>Unimodal representations (Vision + Audio)</b><br>
+              </td>
+              <td class="col-md-6">
+                Sep 5: <b>Unimodal representations (Language)</b><br>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+                Readings:
+                <ul>
+                  <li><a href="https://arxiv.org/abs/1311.2901">Visualizing and Understanding Convolutional Networks</a></li>
+                  <li><a href="https://arxiv.org/abs/1610.02391">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</a></li>
+                  <li><a href="https://arxiv.org/abs/1506.02078">Visualizing and Understanding Recurrent Networks</a></li>
+                  <li><a href="https://arxiv.org/abs/1805.04623">Sharp Nearby, Fuzzy Far Away: How Neural Language Models Use Context</a></li>
+                </ul>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Sep 10: <b>Fusion</b><br>
+              </td>
+              <td class="col-md-6">
+                Sep 12: <b>Fission</b><br>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+                Readings:
+                <ul>
+                  <li><a href="https://link.springer.com/chapter/10.1007/978-3-642-15561-1_2">
+                      Every Picture Tells a Story: Generating Sentences from Images.</a></li>
+                      
+                  <li><a href="https://www.aclweb.org/anthology/N12-1094/">
+                  Detecting Visual Text</a></li>
+                  
+                  <li><a href="https://www.mitpressjournals.org/doi/abs/10.1162/tacl_a_00166">
+                  From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions</a></li>
+                  
+                  <li><a href="https://arxiv.org/abs/2209.15162">
+                  Linearly Mapping from Image to Text Space</a></li>
+                </ul>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Sep 17: <b>Alignment + Grounding</b><br>
+              </td>
+              <td class="col-md-6">
+                Sep 19: <b>Aligned Representations </b><br>  
+                <ul>
+                  <li><font color="red">Report 1</font></li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Sep 24: <b><font color="blue">Project Hours </font></b>
+              </td>
+              <td class="col-md-6">
+                Sep 26: <b><font color="blue">Project Hours </font></b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Oct 1: <b>Transformers Part 1</b><br>
+              </td>
+              <td class="col-md-6">
+                Oct 3: <b>Transformers Part 2</b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Oct 8: <b><font color="blue">Midterm Presentations</font></b>
+              </td>
+              <td class="col-md-6">
+                Oct 10: <b><font color="blue">Midterm Presentations</font></b>
+                <ul>
+                  <li><font color="red">Report 2</font></li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Oct 15: <b>Fall Break!</b><br>
+              </td>
+              <td class="col-md-6">
+                Oct 17: <b>Fall Break!</b><br>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Oct 22: <b>Generation</b><br>
+              </td>
+              <td class="col-md-6">
+                Oct 24: <b>Generation (cont.)</b><br>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Oct 29: <b>Embodiment </b><br>
+              </td>
+              <td class="col-md-6">
+                Oct 31: <b>Embodiment (cont)</b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+              <ul>
+                <li><a href="https://arxiv.org/abs/1910.09664">
+                Learning to Map Natural Language Instructions to Physical Quadcopter Control using Simulated Flight</a></li>
+                <li><a href="https://arxiv.org/abs/2007.15543">
+                PixL2R: Guiding Reinforcement Learning Using Natural Language by Mapping Pixels to Rewards</a></li>
+                <li><a href="https://arxiv.org/abs/1811.10092">
+                Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation</a></li></a></li>
+              </ul>
+
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </td></tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Nov 5: <b>Election Day (university holiday)</b>
+              </td>
+              <td class="col-md-6">
+                Nov 7: <b>Agents </b>
+                <ul>
+                  <li><font color="red">Report 3</font></li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </td></tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Nov 12: <b>TBD Guest</b>
+              </td>
+              <td class="col-md-6">
+                Nov 14: <b>TBD Guest</b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2>
+            </td></tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Nov 19: <b>Reasoning</b>
+              </td>
+              <td class="col-md-6">
+                Nov 21: <b>Quantification + Bias</b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2></td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Nov 26: <b>New research directions</b>
+                      <ul><li>Recent publications</li></ul>
+              </td>
+              <td class="col-md-6">
+                Nov 28: <b>Thanksgiving (no class)</b>
+              </td>
+            </tr>
+            <tr class="d-flex"><td class="col-md-12" colspan=2></td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-md-6">
+                Dec 3: <b>Final Presentations</b></font>
+              </td>
+              <td class="col-md-6">
+                Dec 5: <b>Final Presentations</b> 
+              </td>
+            </tr> <!-- row -->
+            <tr class="d-flex"><td class="col-md-12" colspan=2></td>
+            </tr>
+
+          </table> <!-- table -->
+
+      </main>
+  </body>
+</html>
+
