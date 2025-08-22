@@ -6,6 +6,8 @@ The course will present the fundamental mathematical concepts in machine learnin
 
 ### Semesters
 This course is offered every semester:
+- Fall 2025 (Taught by Carlos, see Canvas)
+- [Spring 2025](https://canvas.cmu.edu/courses/44779)
 - [Fall 2024](https://cmu-mmml.github.io/fall2024/)
 - [Spring 2024](https://cmu-mmml.github.io/spring2024/)
 - [Spring 2023](https://cmu-mmml.github.io/spring2023/)
@@ -23,5 +25,6 @@ The syllabus and material are slightly each semester, primarily to incorporate n
 - [LP Morency](http://multicomp.cs.cmu.edu/)
 - [Yonatan Bisk](https://yonatanbisk.com/)
 - [Daniel Fried](https://dpfried.github.io/)
+- [Carlos Busso](https://carlosbusso.com/)
 
 With substantial assistance from [Paul Pu Liang](https://www.cs.cmu.edu/~pliang/)
