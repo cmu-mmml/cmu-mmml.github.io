@@ -22,7 +22,7 @@ For advanced topics, see
 - [Advanced Topics in MMML](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
 - [Talking to Robots](https://talkingtorobots.com/11-851/)
 
-The course was created in Spring 2016 by LP Morency, co-taught with Tadas Baltrusaitis. The course was completely revamped in Fall 2022, by LP Morency with help from Paul Liang, to follow the updated taxonomy of technical challenges in multimodal ML [link](https://arxiv.org/abs/2209.03430). The syllabus and material are slightly each semester, primarily to incorporate new emerging research topics, but the structure of the course remains the same. The instructors are:
+The course was created in Spring 2016 by LP Morency, co-taught with Tadas Baltrusaitis. The course was completely revamped in Fall 2022, by LP Morency and Paul Liang, to follow the updated taxonomy of technical challenges in multimodal ML [link](https://arxiv.org/abs/2209.03430). The syllabus and material are slightly each semester, primarily to incorporate new emerging research topics, but the structure of the course remains the same. The instructors are:
 
 - [LP Morency](http://multicomp.cs.cmu.edu/)
 - [Yonatan Bisk](https://yonatanbisk.com/)
