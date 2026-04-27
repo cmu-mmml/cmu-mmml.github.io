@@ -6,10 +6,12 @@ The course will present the fundamental mathematical concepts in machine learnin
 
 ### Semesters
 This course is offered every semester:
-- Fall 2025 (Taught by Carlos, see Canvas)
+- Spring 2026 
+- Fall 2025 
 - [Spring 2025](https://canvas.cmu.edu/courses/44779)
 - [Fall 2024](https://cmu-mmml.github.io/fall2024/)
 - [Spring 2024](https://cmu-mmml.github.io/spring2024/)
+- [Fall 2023](https://cmu-multicomp-lab.github.io/mmml-course/fall2023/)
 - [Spring 2023](https://cmu-mmml.github.io/spring2023/)
 - [Fall 2022](https://cmu-mmml.github.io/fall2022/)
 - [Spring 2022](https://cmu-mmml.github.io/spring2022/)
@@ -20,7 +22,7 @@ For advanced topics, see
 - [Advanced Topics in MMML](https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/)
 - [Talking to Robots](https://talkingtorobots.com/11-851/)
 
-The syllabus and material are slightly each semester, primarily to incorporate new emerging research topics, but the structure of the course remains the same. The instructors are:
+The course was created in Spring 2016 by LP Morency, co-taught with Tadas Baltrusaitis. The course was completely revamped in Fall 2022, by LP Morency with help from Paul Liang, to follow the updated taxonomy of technical challenges in multimodal ML [link](https://arxiv.org/abs/2209.03430). The syllabus and material are slightly each semester, primarily to incorporate new emerging research topics, but the structure of the course remains the same. The instructors are:
 
 - [LP Morency](http://multicomp.cs.cmu.edu/)
 - [Yonatan Bisk](https://yonatanbisk.com/)
